@@ -25,20 +25,35 @@ Leaderboard & History Dialogs: View Top 10 players ranked by highest WPM with av
 **Project Structure**
 
 TypingSpeedTestPro/
+
 ├── .vscode/
+
 │   ├── tasks.json
+
 │   ├── launch.json
+
 │   └── c_cpp_properties.json
+
 ├── config.h       # Constants, control IDs, theme colors, shared state & helpers
+
 ├── db.h           # Database & reporting declarations
+
 ├── db.c           # SQLite3 initialization, saving sessions, Leaderboard & History
+
 ├── engine.h       # Typing engine declarations
+
 ├── engine.c       # 30 passages, WPM/accuracy calculations & test lifecycle
+
 ├── ui.h           # UI & WindowProc declarations
+
 ├── ui.c           # Win32 controls, GDI card painting & event handling
+
 ├── main.c         # Common controls init, window registration & message loop
+
 ├── README.md      # Project documentation
+
 └── .gitignore     # Excludes build artifacts, local DB files & editor configs
+
 
 
 **Console Build & Run Commands**

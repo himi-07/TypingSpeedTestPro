@@ -1,16 +1,14 @@
-Typing Speed Test Pro
+**Typing Speed Test Pro**
+A modular Windows desktop typing assessment and performance tracking application written in C (MinGW-w64 GCC) using the Win32 API (user32, gdi32, comctl32) and embedded SQLite3 (typing_test.db), developed byLuhana Rashid Himi (https://github.com/himi-07).
 
-A modular Windows desktop typing assessment and performance tracking application written in C (MinGW-w64 GCC) using the Win32 API (user32, gdi32, comctl32) and embedded SQLite3 (typing_test.db), developed by Shamiul Islam Shanto (https://github.com/himi-07).
-
-Repository & Project Links
-
+**Repository & Project Links**
 GitHub Profile: https://github.com/himi-07
 
 GitHub Repository: https://github.com/himi-07/TypingSpeedTestPro
 
 README URL: https://github.com/himi-07/TypingSpeedTestPro/blob/main/README.md
 
-Key Features
+**Key Features**
 
 Live Performance Metrics: Real-time calculation of Words Per Minute (WPM), character Accuracy (%), countdown/elapsed clock, and character Errors.
 
@@ -22,8 +20,7 @@ Persistent SQLite3 Storage: Stores completed sessions in typing_test.db (session
 
 Leaderboard & History Dialogs: View Top 10 players ranked by highest WPM with average accuracy, plus recent test session logs.
 
-Project Structure
-
+**Project Structure**
 TypingSpeedTestPro/
 ├── .vscode/
 │   ├── tasks.json
@@ -41,8 +38,7 @@ TypingSpeedTestPro/
 └── .gitignore     # Excludes build artifacts, local DB files & editor configs
 
 
-Console Build & Run Commands
-
+**Console Build & Run Commands**
 1. Build & Run (Standard GUI Executable)
 
 gcc -Wall -Wextra -g main.c db.c engine.c ui.c -I. -L. -lsqlite3 -lcomctl32 -lgdi32 -luser32 -mwindows -o typing_test.exe
@@ -55,8 +51,7 @@ gcc -Wall -Wextra -g main.c db.c engine.c ui.c -I. -L. -lsqlite3 -lcomctl32 -lgd
 .\typing_test_console.exe
 
 
-Push to GitHub via Console
-
+**Push to GitHub via Console**
 git init
 git add .
 git commit -m "Add Typing Speed Test Pro project"

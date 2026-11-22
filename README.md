@@ -1,6 +1,6 @@
 **Typing Speed Test Pro**
 
-A modular Windows desktop typing assessment and performance tracking application written in C (MinGW-w64 GCC) using the Win32 API (user32, gdi32, comctl32) and embedded SQLite3 (typing_test.db), developed byLuhana Rashid Himi (https://github.com/himi-07).
+A modular Windows desktop typing assessment and performance tracking application written in C (MinGW-w64 GCC) using the Win32 API (user32, gdi32, comctl32) and embedded SQLite3 (typing_test.db), developed by Luhana Rashid Himi (https://github.com/himi-07).
 
 **Repository & Project Links**
 GitHub Profile: https://github.com/himi-07

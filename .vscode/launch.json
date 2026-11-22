@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Typing Speed Test Pro",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/typing_test.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\gcc\\bin\\gdb.exe",
+      "preLaunchTask": "Build Typing Speed Test Pro"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Typing Speed Test Pro",
+      "type": "shell",
+      "command": "C:\\gcc\\bin\\gcc.exe",
+      "args": [
+        "-Wall",
+        "-Wextra",
+        "-g",
+        "main.c",
+        "db.c",
+        "engine.c",
+        "ui.c",
+        "-I.",
+        "-L.",
+        "D:\\HIMI\\Typing speed test\\sqlite3.c",
+        "-ID:\\HIMI\\Typing speed test",
+        "-lcomctl32",
+        "-lgdi32",
+        "-luser32",
+        "-mwindows",
+        "-o",
+        "typing_test.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}

@@ -73,13 +73,16 @@ gcc -Wall -Wextra -g main.c db.c engine.c ui.c -I. -L. -lsqlite3 -lcomctl32 -lgd
 **Push to GitHub via Console**
 
 git init
+
 git add .
+
 git commit -m "Add Typing Speed Test Pro project"
+
 git branch -M main
+
 git remote add origin https://github.com/himi-07/TypingSpeedTestPro.git
+
 git push -u origin main
-
-
 If the remote repository already has commits on main, pull and rebase first:
 
 git pull --rebase origin main
